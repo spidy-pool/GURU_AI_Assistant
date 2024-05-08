@@ -16,11 +16,11 @@ function wishMe() {
     var hour = day.getHours();
 
     if (hour >= 0 && hour < 12) {
-        speak("Good Morning Boss...");
+        speak("Namaste Dosto Andhera kayam rahe");
     } else if (hour >= 12 && hour < 17) {
-        speak("Good Afternoon Master...");
+        speak("Namaste Dosto Andhera kayam rahe");
     } else {
-        speak("Good Evening Sir...");
+        speak("Namaste Dosto Andhera kayam rahe");
     }
 }
 
