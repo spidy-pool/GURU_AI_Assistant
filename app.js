@@ -51,10 +51,6 @@ function takeCommand(message) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
     }
-         else if (message.includes("open pornhub")) {
-        window.open("https://pornhub.com", "_blank");
-        speak("Opening Pornhub...");
-    }
     else if (message.includes("open youtube")) {
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...");
