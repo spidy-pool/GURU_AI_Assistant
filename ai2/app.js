@@ -18,11 +18,11 @@ function wishMe() {
     var hour = day.getHours();
 
     if (hour >= 0 && hour < 12) {
-        speak("Good Morning Boss...");
+        speak("Namaste Dosto Andhera kayam rahe");
     } else if (hour >= 12 && hour < 17) {
-        speak("Good Afternoon Master...");
+        speak("Namaste Dosto Andhera kayam rahe");
     } else {
-        speak("Good Evening Sir...");
+        speak("Namaste Dosto Andhera kayam rahe");
     }
 }
 
@@ -52,7 +52,8 @@ function takeCommand(message) {
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
-    } else if (message.includes("open youtube")) {
+    }
+    else if (message.includes("open youtube")) {
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...");
     } else if (message.includes("open facebook")) {
